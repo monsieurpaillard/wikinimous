@@ -1,7 +1,9 @@
-<%= form_for(@task) do |f| %>
-  <%= f.label :name, "Task name" %>
-  <%= f.text_field :name %>
-  <%= f.label :description, "Task description" %>
-  <%= f.text_field :description %>
+<%= form_for(@article) do |f| %>
+  <%= f.label :title, "Article title" %>
+  <%= f.text_field :title %>
+  <%= f.label :content, "Your article" %>
+  <%= f.text_field :content %>
   <%= f.submit %>
 <% end %>
+
+
